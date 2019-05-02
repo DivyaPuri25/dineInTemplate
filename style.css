@@ -1,0 +1,312 @@
+.parallax {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/776538/pexels-photo-776538.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-opacity:0.5;
+    /* Set a specific height */
+    min-height: 800px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container{
+    display: inline-flex;
+    align-items: flex-start;
+  }
+
+  .logo{
+    padding: 20px 30px 20px 30px;
+     /*  background-color: orange;*/
+
+   /*SF Cartoonist Hand*/
+    }
+
+  .logoimg{
+    background-color: red;
+  }
+
+/*span{
+  font-family: 'Montez', cursive;
+  color: white;
+  font-size: 5em;
+  background-color: blue;
+}*/
+
+body{
+  background-color: black;
+  margin:0px;
+  padding:0px;
+}
+
+nav{
+ /* background:black;*/
+  padding-top: 80px;
+  padding-bottom: 100px;
+ /* width: 100%;*/
+ }
+
+ul{
+  background-color: black;
+  display: flex;
+  padding: 0;
+  list-style: none;
+  font-size: 1.5em;
+  font-family: 'SF Cartoonist Hand', cursive;
+  color: white;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: orange;
+}
+
+.bookATable{
+  background-color: orange;
+  border-radius: 2px;
+}
+
+.bookATable:hover{
+  background-opacity:0.5;
+}
+
+li{
+    margin : 5px 20px 10px 20px;
+}
+
+  .parallax2 {
+    background-image: url("https://images.pexels.com/photos/2174069/pexels-photo-2174069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  
+    /* Set a specific height */
+    min-height: 700px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .para, .para2 {
+      text-align: center;
+      /*padding-left: 5%;
+      padding-right: 5%;*/
+      align-items: center;
+      height: 250px;
+      font-size: 1.2em;
+      background-color: white;
+  }
+
+  .info{
+      
+      align-items: flex-end;
+      height:55vh;
+      justify-content: center;
+      text-align: center;
+      /*background-color: green;*/
+      }
+
+
+  
+  .dot{
+    display: inline-flex;
+  width: 15px; 
+  height: 15px; 
+  border-radius: 7px; 
+  background-color: white;  
+  text-align: center;
+  margin:0px 5px 0px 5px;
+  }
+
+  .dot:hover{
+    transition: 1s;
+    transform: scale(2);
+    background-color: orange;
+  }
+
+  .welcome{
+    font-family: 'Montez', cursive;
+  color: white;
+  font-size: 4em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-shadow: 2px 2px 5px orange;
+  }
+
+  .best{
+    font-size: 1.5em;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px black;
+  }
+
+.button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 2px 0px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.button2{
+  background-color: black;
+  border:black;
+}
+
+
+.button:hover{
+  background-color: transparent;
+  border-color: white;
+}
+
+.button2:hover{
+  background-opacity: 0.5;
+}
+
+.img2:hover{
+  transition: all 1s;
+  transform: rotate(180deg);
+}
+
+/*Animation code*/
+.animate-reveal {
+  font-family: 'Montez', cursive;
+  color: white;
+  font-size: 4em;
+ text-shadow: 2px 2px 5px orange;
+  letter-spacing: 2px;
+  opacity: 0;
+  -webkit-animation: reveal 1s ease-in 1 normal forwards;
+     -moz-animation: reveal 1s ease-in 1 normal forwards;
+       -o-animation: reveal 1s ease-in 1 normal forwards;
+          animation: reveal 1s ease-in 1 normal forwards;
+}
+
+.animate-first {
+  -webkit-animation-delay: 500ms;
+     -moz-animation-delay: 500ms;
+       -o-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+
+@-webkit-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-moz-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-o-keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+       -moz-transform: translateY(100%);
+         -o-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.footer1{
+  padding-bottom: 0%;
+  background-color: grey;
+  height:10%;
+  width: 100%;
+}
