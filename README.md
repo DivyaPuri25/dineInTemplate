@@ -21,5 +21,3 @@ If needed any example on how a template looks like, visit my [Juice Shop Templat
 
 ## Contributions
 Do include your name in the [Contributors file](./Contributors.md).
-
-## Making branch for my project from scratch. - Divya :)
